@@ -4,7 +4,7 @@ from sklearn.model_selection import train_test_split, cross_val_score
 from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score
 from xgboost import XGBClassifier
 
-
+#数据集网址：https://www.datafountain.cn/competitions/449/datasets
 # onehot编码模型,返回编码后的数据
 def onehotmodel(data):
     # 找出数字列
